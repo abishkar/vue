@@ -7,7 +7,7 @@ import { Component, OnInit ,Input} from '@angular/core';
 })
 export class PatientTableComponent implements OnInit {
   
-  @Input() employees: any;
+  @Input() patients: any;
 
   constructor() { }
 
